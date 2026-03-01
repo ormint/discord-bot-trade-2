@@ -23,8 +23,14 @@ async def on_member_join(member):
         try:
             await member.send(
                 """
+You have been removed from the server for v4n1ty protection.
+
+If you want to tr4de, enter this server:
 https://discord.gg/rRN9X8RjfB
 
+
+https://t.me/darkbring
+"""
             )
         except:
             pass
