@@ -23,13 +23,18 @@ async def on_member_join(member):
         try:
             await member.send(
                 """
-https://t.me/trowmarket
+You have been removed from the server for v4n1ty protection.
+
+If you want to tr4de, enter this server:
 https://discord.gg/rRN9X8RjfB
+
+If you want to bu4y the trade v4n1ty, join Telegr4m or the server:
+https://t.me/trowmarket
 """
             )
         except:
             pass
 
-        await member.kick(reason="No role")
+        await member.kick(reason="v4n1ty protection")
 
 bot.run(TOKEN)
